@@ -11,7 +11,6 @@ function handleClick(){
     const buttonPressed = this.innerHTML;
     playSound(buttonPressed);
     buttonAnimation(buttonPressed);
-
 }
 
 function playSound(buttonPressed){
@@ -62,5 +61,4 @@ function buttonAnimation(buttonPressed){
     setTimeout(function (){
         activeButton.classList.remove("pressed");
     },50);
-
 }
